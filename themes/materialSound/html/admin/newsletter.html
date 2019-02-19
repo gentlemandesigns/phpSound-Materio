@@ -1,0 +1,24 @@
+{$message}
+<form action="{$url}/index.php?a=admin&b=newsletter" method="post">
+<div class="page-inner">
+	{$token_input}
+	<div class="page-input-container">
+		<div class="page-input-title">{$lng->email_title}</div>
+		<div class="page-input-content">
+			<input type="text" name="email_title" maxlength="32">
+		</div>
+	</div>
+	
+	<div class="page-input-container">
+		<div class="page-input-title">{$lng->email_content}</div>
+		<div class="page-input-content">
+			<textarea class="ads" name="email_content"></textarea>
+		</div>
+	</div>
+</div>
+<div class="divider"></div>
+<div class="page-inner">
+	<div class="page-input-title"></div><input type="submit" value="{$lng->send}">
+</div>
+</form>
+{$newsletters}
