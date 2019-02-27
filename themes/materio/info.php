@@ -1,12 +1,12 @@
 <?php
 // Theme Name
-$name = 'materialSound';
+$name = 'Materio';
 
 // Theme Author
 $author = 'GentlemanDesigns';
 
 // Theme URL
-$url = 'http://codecanyon.net/user/gentlemandesigns';
+$url = 'https://github.com/gentlemandesigns/materio';
 
 // Theme Version
 $version = '4.4';
