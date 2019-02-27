@@ -6,7 +6,7 @@ $name = 'Materio';
 $author = 'GentlemanDesigns';
 
 // Theme URL
-$url = 'https://github.com/gentlemandesigns/materio';
+$url = 'https://github.com/gentlemandesigns/phpSocial-Materio';
 
 // Theme Version
 $version = '4.4';
